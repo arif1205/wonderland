@@ -20,6 +20,8 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    overflow: hidden;
   }
 
   a {
