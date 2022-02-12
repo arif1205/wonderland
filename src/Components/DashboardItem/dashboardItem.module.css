@@ -4,31 +4,35 @@
 .box_container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 12px;
-  width: 850px;
+  grid-gap: 32px;
+  width: 89%;
+  max-width: 833px;
   margin: 0 auto;
   padding: 5% 0;
   position: relative;
 }
 .item_box {
-  width: 400px;
-  height: 70px;
+  width: 100%;
   padding: 5px 0;
-  /* background:#0e1011; */
   background: rgba(0, 0, 0, 0.2);
-  -webkit-backdrop-filter: blur(100px);
-  backdrop-filter: blur(100px);
+  -webkit-backdrop-filter: blur(50px);
+  backdrop-filter: blur(50px);
   border-radius: 10px;
-  /* float:left; */
+  text-align: center;
+  padding: 13px;
   margin: 5px 0;
 }
 .item_box h3 {
-  color: #666768;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-weight: 500;
+  font-size: 20px;
   margin: 0px;
 }
 .item_box h2 {
   color: #fff;
   margin: 0px;
+  font-size: 24px;
+  font-weight: 700;
 }
 .bg_style {
   opacity: 0.6;

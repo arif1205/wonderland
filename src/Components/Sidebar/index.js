@@ -22,7 +22,7 @@ const Sidebar = () => {
       <SidebarLinks>
         <Flex direction="column">
           <div class="side-bar-link-item-container">
-            <Link to="/" className="active">
+            <Link to="/dashboard" className="active">
               <Flex className="side-bar-link-item" gap="10px">
                 <div className="icon">
                   <DashboardIcon />
@@ -32,7 +32,7 @@ const Sidebar = () => {
             </Link>
           </div>
           <div class="side-bar-link-item-container">
-            <Link to="/">
+            <Link to="/stake">
               <Flex className="side-bar-link-item" gap="10px">
                 <div className="icon">
                   <StakeIcon />
@@ -42,7 +42,7 @@ const Sidebar = () => {
             </Link>
           </div>
           <div class="side-bar-link-item-container">
-            <Link to="/">
+            <Link to="/mint">
               <Flex className="side-bar-link-item" gap="10px">
                 <div className="icon">
                   <BondIcon />
@@ -53,7 +53,7 @@ const Sidebar = () => {
             <SidebarSubMenu />
           </div>
           <div class="side-bar-link-item-container">
-            <Link to="/">
+            <Link to="/bridge">
               <Flex className="side-bar-link-item" gap="10px">
                 <div className="icon">
                   <BridgeIcon />
@@ -63,7 +63,7 @@ const Sidebar = () => {
             </Link>
           </div>
           <div class="side-bar-link-item-container">
-            <Link to="/">
+            <Link to="/fund">
               <Flex className="side-bar-link-item" gap="10px">
                 <div className="icon">
                   <img src={fundIcon} alt="fond icon" />
@@ -73,7 +73,7 @@ const Sidebar = () => {
             </Link>
           </div>
           <div class="side-bar-link-item-container">
-            <Link to="/">
+            <Link to="/blog">
               <Flex className="side-bar-link-item" gap="10px">
                 <div className="icon">
                   <MediumIcon />
@@ -83,7 +83,7 @@ const Sidebar = () => {
             </Link>
           </div>
           <div class="side-bar-link-item-container">
-            <Link to="/" className="docs">
+            <Link to="/docs" className="docs">
               <Flex className="side-bar-link-item" gap="10px" justify="center">
                 <div className="icon">
                   <StakeIcon />
